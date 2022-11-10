@@ -10,7 +10,9 @@
         "prepare": "husky install"
     },
     "devDependencies": {
+        "@rollup/plugin-typescript": "^9.0.2",
         "@sveltejs/vite-plugin-svelte": "^1.0.1",
+        "@tsconfig/svelte": "^3.0.0",
         "@typescript-eslint/eslint-plugin": "^5.42.1",
         "@typescript-eslint/parser": "^5.42.1",
         "autoprefixer": "^10.4.13",
@@ -21,6 +23,8 @@
         "prettier": "^2.7.1",
         "prettier-plugin-svelte": "^2.8.0",
         "svelte": "^3.49.0",
+        "svelte-check": "^2.9.2",
+        "svelte-preprocess": "^4.10.7",
         "tailwindcss": "^3.2.3",
         "vite": "^3.0.0"
     },
