@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { onMount } from 'svelte';
     import Slide from '../lib/Slide.svelte';
     import Code from '../lib/Code.svelte';

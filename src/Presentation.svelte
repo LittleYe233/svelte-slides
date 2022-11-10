@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Title from './slides/Title.svelte';
     import Love from './slides/Love.svelte';
     import GettingStarted from './slides/GettingStarted.svelte';

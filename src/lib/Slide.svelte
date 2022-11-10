@@ -1,9 +1,9 @@
-<script>
+<script lang="ts">
     // Color Backgrounds
     export let bgColor;
 
     // Gradient Backgrounds
-    export let bgGradient;
+    export let bgGradient: never;
     // Image Backgrounds
     export let bgImage;
     export let bgSize = 'cover';

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import logo from '../../assets/image2.png';
 </script>
 
