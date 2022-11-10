@@ -1,4 +1,5 @@
 {
+    "extends": "@tsconfig/svelte/tsconfig.json",
     "compilerOptions": {
         "moduleResolution": "Node",
         "target": "ESNext",
@@ -31,5 +32,6 @@
      * Use global.d.ts instead of compilerOptions.types
      * to avoid limiting type declarations.
      */
-    "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
+    "include": ["src/**/*", "src/node_modules"],
+    "exclude": ["node_modules/*", "__sapper__/*", "public/*"]
 }
