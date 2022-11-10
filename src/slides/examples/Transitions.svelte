@@ -48,14 +48,3 @@
 <section>
     <h3>Default</h3>
 </section>
-
-<style>
-    .slides section.has-dark-background,
-    .slides section.has-dark-background h3 {
-        color: #fff;
-    }
-    .slides section.has-light-background,
-    .slides section.has-light-background h3 {
-        color: #222;
-    }
-</style>

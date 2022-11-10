@@ -94,14 +94,3 @@
         <h2>Same background from horizontal to vertical (3/3)</h2>
     </section>
 </section>
-
-<style>
-    .slides section.has-dark-background,
-    .slides section.has-dark-background h2 {
-        color: #fff;
-    }
-    .slides section.has-light-background,
-    .slides section.has-light-background h2 {
-        color: #222;
-    }
-</style>
