@@ -12,7 +12,7 @@ import 'reveal.js/plugin/highlight/monokai.css';
 export default {
     // App Config
     app: {
-        name: 'Reveal.js with Svelte and Vite',
+        name: 'Reveal.js with Svelte and Vite'
     },
     // Reveal Config
     reveal: {
@@ -23,9 +23,9 @@ export default {
             TeX: {
                 Macros: {
                     R: '\\mathbb{R}',
-                    set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+                    set: ['\\left\\{#1 \\; ; \\; #2\\right\\}', 2]
                 }
             }
-        },
-    },
+        }
+    }
 };
