@@ -18,14 +18,14 @@ export default {
     reveal: {
         plugins: [Highlight, Markdown, MathReveal.MathJax2, MathReveal.KaTeX, RevealNotes],
         hash: true,
-      mathjax2: {
-        config: 'TeX-AMS_HTML-full',
-        TeX: {
-          Macros: {
-            R: '\\mathbb{R}',
-            set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
-          }
-        }
-      },
+        mathjax2: {
+            config: 'TeX-AMS_HTML-full',
+            TeX: {
+                Macros: {
+                    R: '\\mathbb{R}',
+                    set: [ '\\left\\{#1 \\; ; \\; #2\\right\\}', 2 ]
+                }
+            }
+        },
     },
 };
