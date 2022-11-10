@@ -1,6 +1,5 @@
 <script>
- import Notes from '../lib/Notes.svelte';
-
+    import Notes from '../lib/Notes.svelte';
 </script>
 
 <section>
@@ -10,5 +9,5 @@
         <li class="fragment fade-up">Create your Slides in <code>src/slides</code></li>
         <li class="fragment fade-up">Add your Slides in <code>Presentation.svelte</code></li>
     </ul>
-		<Notes>This is an example of slide notes</Notes>
+    <Notes>This is an example of slide notes</Notes>
 </section>

@@ -1,6 +1,6 @@
 <script>
-    import Title          from './slides/Title.svelte';
-    import Love           from './slides/Love.svelte';
+    import Title from './slides/Title.svelte';
+    import Love from './slides/Love.svelte';
     import GettingStarted from './slides/GettingStarted.svelte';
     import AutoAnimate from './slides/examples/AutoAnimate.svelte';
     import Backgrounds from './slides/examples/Backgrounds.svelte';
@@ -14,15 +14,14 @@
     const partner = ['Svelte', 'Reveal.js'];
 </script>
 
-<Title/>
-<Love {partner}/>
-<GettingStarted/>
-<AutoAnimate/>
-<Backgrounds/>
-<Barebones/>
-<LayoutHelpers/>
-<Markdown/>
-<Math/>
-<Media/>
-<Transitions/>
-
+<Title />
+<Love {partner} />
+<GettingStarted />
+<AutoAnimate />
+<Backgrounds />
+<Barebones />
+<LayoutHelpers />
+<Markdown />
+<Math />
+<Media />
+<Transitions />

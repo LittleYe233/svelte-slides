@@ -1,7 +1,7 @@
 <script>
     import { onMount } from 'svelte';
- import Slide from '../lib/Slide.svelte';
- import Code from '../lib/Code.svelte';
+    import Slide from '../lib/Slide.svelte';
+    import Code from '../lib/Code.svelte';
 
     let title;
     onMount(() => {
@@ -22,13 +22,11 @@
         {/await}
     </h2>
 
-		<Code lineNumbers trim noescape>
-    {
-    `const name = "hello world";
+    <Code lineNumbers trim noescape>
+        {`const name = "hello world";
     if(name === 'hello') {
       console.log('world');
     }
-    `
-    }
-		</Code>
+    `}
+    </Code>
 </Slide>

@@ -1,9 +1,9 @@
 <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
-<section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+<section data-markdown="markdown.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" />
 
 <!-- Slides are separated by three dashes (the default) -->
 <section data-markdown>
-<script type="text/template">
+    <script type="text/template">
   ## Demo 1
   Slide 1
   ---
@@ -12,12 +12,12 @@
   ---
   ## Demo 1
   Slide 3
-</script>
+    </script>
 </section>
 
 <!-- Slides are separated by regexp matching newline + three dashes + newline, vertical slides identical but two dashes -->
 <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-<script type="text/template">
+    <script type="text/template">
   ## Demo 2
   Slide 1.1
 
@@ -30,12 +30,12 @@
 
   ## Demo 2
   Slide 2
-</script>
+    </script>
 </section>
 
 <!-- No "extra" slides, since the separator can't be matched ("---" will become horizontal rulers) -->
 <section data-markdown data-separator="$x">
-<script type="text/template">
+    <script type="text/template">
   A
 
   ---
@@ -45,51 +45,51 @@
   ---
 
   C
-</script>
+    </script>
 </section>
 
 <!-- Slide attributes -->
 <section data-markdown>
-<script type="text/template">
+    <script type="text/template">
   <!-- .slide: data-background="#000000" -->
   ## Slide attributes
-</script>
+    </script>
 </section>
 
 <!-- Element attributes -->
 <section data-markdown>
-<script type="text/template">
+    <script type="text/template">
   ## Element attributes
   - Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
   - Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
-</script>
+    </script>
 </section>
 
 <!-- Code -->
 <section data-markdown>
-<script type="text/template">
-  ```php [1|3-5]
+    <script type="text/template">
+        ```php [1|3-5]
     public function foo()
     {
         $foo = array(
             'bar' => 'bar'
         )
     }
-  ```
-</script>
+  ```;
+    </script>
 </section>
 
 <!-- Images -->
 <section data-markdown>
-<script type="text/template">
+    <script type="text/template">
   ![Sample image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
-</script>
+    </script>
 </section>
 
 <!-- Math -->
 <section data-markdown>
-  ## The Lorenz Equations
-  {`
+    ## The Lorenz Equations
+    {`
   \`\\[begin{aligned}
   \\dot{x} &amp; = \\sigma(y-x) \\
   \\dot{y} &amp; = \\rho x - y - xz \\
