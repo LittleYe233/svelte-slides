@@ -5,7 +5,7 @@
 <section data-auto-animate data-auto-animate-unmatched="fade">
     <h3>Auto-Animate Example</h3>
     <p>This will fade out</p>
-    <img src={logo} style="height: 100px;" />
+    <img src={logo} style="height: 100px;" alt="" />
     <pre data-id="code"><code data-line-numbers class="hljs" data-trim>
   {@html `
 <script>
@@ -25,7 +25,7 @@
     <h3>Auto-Animate Example</h3>
     <p style="opacity: 0.2; margin-top: 100px;">This will fade out</p>
     <p>This element is unmatched</p>
-    <img src={logo} style="height: 150px;" />
+    <img src={logo} style="height: 150px;" alt="" />
     <pre data-id="code"><code data-line-numbers class="hljs" data-trim>
   {`
     function Example() {

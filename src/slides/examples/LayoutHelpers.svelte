@@ -35,14 +35,14 @@
     <p>Makes an element as tall as possible while remaining within the slide bounds.</p>
     <pre><code class="html" data-trim data-line-numbers>
                                           <h2>Stretch Example</h2>
-                                          <img src={logo} class="r-stretch" />
+                                          <img src={logo} class="r-stretch" alt="" />
                                           <p>Image byline</p>
   </code></pre>
 </section>
 
 <section>
     <h2>Stretch Example</h2>
-    <img src={logo} class="r-stretch" />
+    <img src={logo} class="r-stretch" alt="" />
     <p>Image byline</p>
 </section>
 
@@ -67,9 +67,9 @@
         <p class="fragment fade-in-then-out">Four</p>
     </div>
     <div class="r-stack">
-        <img src="https://placekitten.com/450/300" width="450" height="300" class="fragment" />
-        <img src="https://placekitten.com/300/450" width="300" height="450" class="fragment" />
-        <img src="https://placekitten.com/400/400" width="400" height="400" class="fragment" />
+        <img src="https://placekitten.com/450/300" width="450" height="300" class="fragment" alt="" />
+        <img src="https://placekitten.com/300/450" width="300" height="450" class="fragment" alt="" />
+        <img src="https://placekitten.com/400/400" width="400" height="400" class="fragment" alt="" />
     </div>
 </section>
 
@@ -77,9 +77,9 @@
     <h2>Stack Example</h2>
     <p>fade-in-then-out fragments</p>
     <div class="r-stack">
-        <img src="https://placekitten.com/450/300" width="450" height="300" class="fragment fade-in-then-out" />
-        <img src="https://placekitten.com/300/450" width="300" height="450" class="fragment fade-in-then-out" />
-        <img src="https://placekitten.com/400/400" width="400" height="400" class="fragment fade-in-then-out" />
+        <img src="https://placekitten.com/450/300" width="450" height="300" class="fragment fade-in-then-out" alt="" />
+        <img src="https://placekitten.com/300/450" width="300" height="450" class="fragment fade-in-then-out" alt="" />
+        <img src="https://placekitten.com/400/400" width="400" height="400" class="fragment fade-in-then-out" alt="" />
     </div>
 </section>
 
