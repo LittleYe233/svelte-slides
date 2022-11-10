@@ -2,7 +2,7 @@
     export let trim;
     export let noescape;
     export let lineNumbers;
-    export let lineStartFrom;
+    export let lineStartFrom = null;
 </script>
 
 <pre>

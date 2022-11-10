@@ -1,21 +1,21 @@
 <script lang="ts">
     // Color Backgrounds
-    export let bgColor;
+    export let bgColor: string = null;
 
     // Gradient Backgrounds
-    export let bgGradient: never;
+    export let bgGradient: string = null;
     // Image Backgrounds
-    export let bgImage;
+    export let bgImage: string = null;
     export let bgSize = 'cover';
     export let bgPosition = 'center';
     export let bgRepeat = 'no-repeat';
     export let bgOpacity = '1';
     // Video Backgrounds
-    export let bgVideo;
+    export let bgVideo: string = null;
     export let bgVideoLoop = 'false';
     export let bgVideoMuted = 'false';
     // Iframe Backgrounds
-    export let bgIframe;
+    export let bgIframe: string = null;
     export let bgInteractive = 'false';
     // Transitions
 </script>
