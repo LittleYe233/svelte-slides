@@ -2,4 +2,3 @@ dist/
 .husky/
 yarn.lock
 .prettierignore
-*.svelte
